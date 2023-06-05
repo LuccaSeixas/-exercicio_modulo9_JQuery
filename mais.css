@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(226, 217, 205);
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.container{
+    max-width: 640px;
+    width: 100%;
+    margin: 120px auto;
+    padding: 16px 32px;
+    background-color: rgb(242, 255, 172);
+}
+
+h2{
+    padding: 8px 0;
+}
+
+header{
+    padding: 24px 0 8px 0;
+}
+
+.lista-tarefas{
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    width: 100%;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+li:hover{
+    cursor: pointer 
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    font-size: 24PX;
+}
+
+input, button{
+    border: none;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bold;
+    font-size: 14PX;
+    padding: 8px;
+}
+
+input{
+    width: 450px;
+}
+
+button{
+    padding: 8px 16px;
+    background-color: rgb(153, 198, 240);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(102, 143, 219);
+}
